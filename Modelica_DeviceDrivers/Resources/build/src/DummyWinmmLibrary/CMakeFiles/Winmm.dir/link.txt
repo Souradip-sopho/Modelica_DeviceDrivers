@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libWinmm.a  CMakeFiles/Winmm.dir/MDDDummyWinmmLibrary.c.o
+/usr/bin/ranlib ../../libWinmm.a

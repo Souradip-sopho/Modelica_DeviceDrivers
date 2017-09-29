@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec36793377/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec36793377.dir/build.make CMakeFiles/cmTryCompileExec36793377.dir/build
+make[1]: Entering directory `/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec36793377.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec36793377.dir/CheckSymbolExists.c.o   -c /home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec36793377
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec36793377.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec36793377.dir/CheckSymbolExists.c.o  -o cmTryCompileExec36793377 -rdynamic 
+CMakeFiles/cmTryCompileExec36793377.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec36793377] Error 1
+make[1]: Leaving directory `/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec36793377/fast] Error 2
+
+File /home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec226032547/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec226032547.dir/build.make CMakeFiles/cmTryCompileExec226032547.dir/build
+make[1]: Entering directory `/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec226032547.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec226032547.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec226032547
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec226032547.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec226032547.dir/CheckFunctionExists.c.o  -o cmTryCompileExec226032547 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec226032547] Error 1
+make[1]: Leaving directory `/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec226032547/fast] Error 2
+
+

@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/test_MDDTCPIPSocketClient.dir/test_MDDTCPIPSocketClient.c.o CMakeFiles/test_MDDTCPIPSocketClient.dir/__/Util/ModelicaUtilities.c.o  -o test_MDDTCPIPSocketClient -rdynamic 

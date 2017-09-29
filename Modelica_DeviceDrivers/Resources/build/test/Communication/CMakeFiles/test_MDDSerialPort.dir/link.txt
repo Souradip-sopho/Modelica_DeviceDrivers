@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/test_MDDSerialPort.dir/test_MDDSerialPort.c.o CMakeFiles/test_MDDSerialPort.dir/__/Util/ModelicaUtilities.c.o  -o test_MDDSerialPort -rdynamic -lpthread 

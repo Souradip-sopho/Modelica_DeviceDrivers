@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libUser32.a  CMakeFiles/User32.dir/MDDDummyUser32Library.c.o
+/usr/bin/ranlib ../../libUser32.a

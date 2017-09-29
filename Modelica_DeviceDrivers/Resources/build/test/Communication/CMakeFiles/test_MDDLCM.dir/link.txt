@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/test_MDDLCM.dir/test_MDDLCM.c.o CMakeFiles/test_MDDLCM.dir/__/Util/ModelicaUtilities.c.o  -o test_MDDLCM -rdynamic ../../../Library/linux64/liblcm.a ../../../Library/linux64/libglib-2.0.a -lrt -lpthread 

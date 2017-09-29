@@ -1,0 +1,3 @@
+/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/Library/linux64/libWinmm.a
+/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/Library/linux64/libUser32.a
+/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/Library/linux64/libWs2_32.a

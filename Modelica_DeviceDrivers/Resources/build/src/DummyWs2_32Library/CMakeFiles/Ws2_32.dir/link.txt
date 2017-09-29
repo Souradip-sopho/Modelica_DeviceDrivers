@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libWs2_32.a  CMakeFiles/Ws2_32.dir/MDDDummyWs2_32Library.c.o
+/usr/bin/ranlib ../../libWs2_32.a

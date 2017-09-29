@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/souradip/Modelica_DeviceDrivers/Modelica_DeviceDrivers/Resources/src/DummyWinmmLibrary/MDDDummyWinmmLibrary.c
+
